@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C016BF1234C1E45002695F4 /* OrderListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C016BF0234C1E45002695F4 /* OrderListTableViewCell.swift */; };
+		3C016BF7234C8C45002695F4 /* kqTea.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C016BF6234C8C45002695F4 /* kqTea.txt */; };
 		3C099BDC2313F6920086B7FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C099BDB2313F6920086B7FF /* AppDelegate.swift */; };
 		3C099BDE2313F6920086B7FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C099BDD2313F6920086B7FF /* SceneDelegate.swift */; };
-		3C099BE02313F6920086B7FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C099BDF2313F6920086B7FF /* ViewController.swift */; };
 		3C099BE32313F6920086B7FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C099BE12313F6920086B7FF /* Main.storyboard */; };
 		3C099BE52313F6960086B7FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C099BE42313F6960086B7FF /* Assets.xcassets */; };
 		3C099BE82313F6960086B7FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C099BE62313F6960086B7FF /* LaunchScreen.storyboard */; };
+		3C4BA53D2345A0BA00B83C72 /* ShowOrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4BA53C2345A0BA00B83C72 /* ShowOrderTableViewController.swift */; };
+		3C4BA5432345E6C800B83C72 /* OrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4BA5422345E6C800B83C72 /* OrderController.swift */; };
+		3C4DB7A723447C1B00180B5C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4DB7A623447C1B00180B5C /* Model.swift */; };
+		3C4DB7A923447CE800180B5C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4DB7A823447CE800180B5C /* MenuViewController.swift */; };
+		3C4DB7AB234480B100180B5C /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4DB7AA234480B100180B5C /* MenuTableViewCell.swift */; };
+		3C4DB7AD2344924200180B5C /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4DB7AC2344924200180B5C /* OrderTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C016BF0234C1E45002695F4 /* OrderListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListTableViewCell.swift; sourceTree = "<group>"; };
+		3C016BF6234C8C45002695F4 /* kqTea.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kqTea.txt; sourceTree = "<group>"; };
 		3C099BD82313F6920086B7FF /* MyDrinkBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDrinkBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C099BDB2313F6920086B7FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C099BDD2313F6920086B7FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3C099BDF2313F6920086B7FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C099BE22313F6920086B7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C099BE42313F6960086B7FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C099BE72313F6960086B7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C099BE92313F6960086B7FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4BA53C2345A0BA00B83C72 /* ShowOrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowOrderTableViewController.swift; sourceTree = "<group>"; };
+		3C4BA5422345E6C800B83C72 /* OrderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderController.swift; sourceTree = "<group>"; };
+		3C4DB7A623447C1B00180B5C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3C4DB7A823447CE800180B5C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3C4DB7AA234480B100180B5C /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		3C4DB7AC2344924200180B5C /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +72,18 @@
 			children = (
 				3C099BDB2313F6920086B7FF /* AppDelegate.swift */,
 				3C099BDD2313F6920086B7FF /* SceneDelegate.swift */,
-				3C099BDF2313F6920086B7FF /* ViewController.swift */,
+				3C4DB7A823447CE800180B5C /* MenuViewController.swift */,
+				3C4DB7AA234480B100180B5C /* MenuTableViewCell.swift */,
+				3C4DB7AC2344924200180B5C /* OrderTableViewController.swift */,
+				3C4BA53C2345A0BA00B83C72 /* ShowOrderTableViewController.swift */,
+				3C016BF0234C1E45002695F4 /* OrderListTableViewCell.swift */,
+				3C4BA5422345E6C800B83C72 /* OrderController.swift */,
+				3C4DB7A623447C1B00180B5C /* Model.swift */,
 				3C099BE12313F6920086B7FF /* Main.storyboard */,
 				3C099BE42313F6960086B7FF /* Assets.xcassets */,
 				3C099BE62313F6960086B7FF /* LaunchScreen.storyboard */,
 				3C099BE92313F6960086B7FF /* Info.plist */,
+				3C016BF6234C8C45002695F4 /* kqTea.txt */,
 			);
 			path = MyDrinkBooking;
 			sourceTree = "<group>";
@@ -126,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C099BE82313F6960086B7FF /* LaunchScreen.storyboard in Resources */,
+				3C016BF7234C8C45002695F4 /* kqTea.txt in Resources */,
 				3C099BE52313F6960086B7FF /* Assets.xcassets in Resources */,
 				3C099BE32313F6920086B7FF /* Main.storyboard in Resources */,
 			);
@@ -138,9 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C099BE02313F6920086B7FF /* ViewController.swift in Sources */,
+				3C4DB7A923447CE800180B5C /* MenuViewController.swift in Sources */,
+				3C4DB7AB234480B100180B5C /* MenuTableViewCell.swift in Sources */,
 				3C099BDC2313F6920086B7FF /* AppDelegate.swift in Sources */,
+				3C016BF1234C1E45002695F4 /* OrderListTableViewCell.swift in Sources */,
 				3C099BDE2313F6920086B7FF /* SceneDelegate.swift in Sources */,
+				3C4BA5432345E6C800B83C72 /* OrderController.swift in Sources */,
+				3C4DB7AD2344924200180B5C /* OrderTableViewController.swift in Sources */,
+				3C4DB7A723447C1B00180B5C /* Model.swift in Sources */,
+				3C4BA53D2345A0BA00B83C72 /* ShowOrderTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
